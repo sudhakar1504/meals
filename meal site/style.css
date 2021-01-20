@@ -362,7 +362,7 @@ header{
      }
      .meal-link{
          color: rgb(255, 255, 255);
-         background-color: black;
+         background-color: rgb(95, 250, 57);
          font-size: 1.2rem;
         padding: 4px;
      }
@@ -507,7 +507,7 @@ header{
     }
     .meal-link{
         color: rgb(255, 255, 255);
-        background-color: black;
+         background-color: rgb(95, 250, 57);
         font-size: 1.2rem;
        padding: 4px;
     }
