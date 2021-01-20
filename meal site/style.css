@@ -502,8 +502,9 @@ header{
         font-size: 1rem;
     }
     .meal-contain-details img{
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        margin-top:15px;
+        height: 130px;
         border-radius: 50%;
         align-items: center;
         justify-content: center;
@@ -513,7 +514,7 @@ header{
         background-color: rgb(251, 18, 18);
         font-weight:600;
         font-size: 1.2rem;
-        padding: 4px;
+        padding: 4px 10px;
     }
     .meal-link:hover{
         text-decoration: none;
