@@ -374,7 +374,7 @@ header{
 }
 @media only screen and (max-width:335px){
     .meal-item{
-        width: 140px;
+        width: 130px;
         overflow: hidden;
        margin: 5px;
        border-radius: 10px;
