@@ -297,7 +297,7 @@ header{
         width: 100%;
         backdrop-filter: blur(20px);
           -webkit-backdrop-filter: blur(20px);
-        top: 20%;
+        top: 10%;
         padding: 2px;
         left: 0%;
         height: 450px;
@@ -439,10 +439,10 @@ header{
         width: 100%;
         backdrop-filter: blur(20px);
          -webkit-backdrop-filter: blur(20px);
-        top: 20%;
+        top: 8%;
         padding: 2px;
         left: 0%;
-        height: 450px;
+        height: 400px;
         align-items: center;
         overflow: scroll;
         visibility: hidden;
