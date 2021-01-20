@@ -183,10 +183,12 @@ header{
     justify-content: center;
 }
 .meal-link{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    font-size: 1.6rem;
+   color: rgb(253, 252, 252);
+   background-color: rgb(251, 18, 18);
+   font-size: 1.6rem;
    padding: 10px;
+   border-radius: 10px;
+   font-weight: 600;
 }
 .meal-link:hover{
     text-decoration: none;
@@ -362,10 +364,10 @@ header{
      }
      .meal-link{
          color: rgb(253, 252, 252);
-    background-color: rgb(251, 18, 18);
+         background-color: rgb(251, 18, 18);
          font-weight:600;
          font-size: 1.2rem;
-        padding: 4px;
+         padding: 4px;
      }
      .meal-link:hover{
          text-decoration: none;
@@ -507,10 +509,10 @@ header{
         justify-content: center;
     }
     .meal-link{
-           color: rgb(253, 252, 252);
-    background-color: rgb(251, 18, 18);
-         font-weight:600;
-         font-size: 1.2rem;
+        color: rgb(253, 252, 252);
+        background-color: rgb(251, 18, 18);
+        font-weight:600;
+        font-size: 1.2rem;
         padding: 4px;
     }
     .meal-link:hover{
