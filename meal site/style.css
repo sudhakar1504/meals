@@ -361,8 +361,9 @@ header{
          justify-content: center;
      }
      .meal-link{
-         color: rgb(255, 255, 255);
-         background-color: rgb(95, 250, 57);
+         color: rgb(253, 252, 252);
+    background-color: rgb(251, 18, 18);
+         font-weight:600;
          font-size: 1.2rem;
         padding: 4px;
      }
@@ -506,10 +507,11 @@ header{
         justify-content: center;
     }
     .meal-link{
-        color: rgb(255, 255, 255);
-         background-color: rgb(95, 250, 57);
-        font-size: 1.2rem;
-       padding: 4px;
+           color: rgb(253, 252, 252);
+    background-color: rgb(251, 18, 18);
+         font-weight:600;
+         font-size: 1.2rem;
+        padding: 4px;
     }
     .meal-link:hover{
         text-decoration: none;
