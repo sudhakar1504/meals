@@ -73,7 +73,7 @@ header{
    padding: 20px;
    backdrop-filter: blur(10px);
    box-shadow: 1px 2px 10px 0.1px rgb(44, 44, 44);
-    height:500px;
+   height: 500px;
 }
 .meal-img img{
     width: 100%;
@@ -123,6 +123,7 @@ header{
     background-color: rgba(255, 255, 255, 0.164);
     width: 700px;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     top: 20%;
     padding: 20px;
     left: 20%;
@@ -232,13 +233,13 @@ header{
      .meal-item{
          width: 140px;
          overflow: hidden;
-        margin: 10px;
+        margin: 5px;
         border-radius: 10px;
         background-color: rgba(255, 255, 255, 0.15);
         padding: 2px;
         backdrop-filter: blur(10px);
         box-shadow: 1px 2px 10px 0.1px rgba(44, 44, 44, 0.37);
-        height:450px;
+        height: 300px;
         position: relative;
      }
      .meal-img img{
@@ -296,8 +297,8 @@ header{
         background-color: rgba(255, 255, 255, 0.164);
         width: 100%;
         backdrop-filter: blur(20px);
-          -webkit-backdrop-filter: blur(10px);
-        top: 10%;
+        -webkit-backdrop-filter: blur(15px);
+        top: 8%;
         padding: 2px;
         left: 0%;
         height: 90%;
@@ -312,7 +313,7 @@ header{
          border: none;
          outline: none;
       color: red;
-      font-size: large;
+      font-size: 1.5rem;
         
      }
      .main-details::-webkit-scrollbar{
@@ -368,15 +369,16 @@ header{
 }
 @media only screen and (max-width:335px){
     .meal-item{
-        width: 140px;
+        width: 120px;
         overflow: hidden;
-       margin: 2px;
+       margin: 5px;
        border-radius: 10px;
        background-color: rgba(255, 255, 255, 0.15);
        padding: 2px;
        backdrop-filter: blur(10px);
+       -webkit-backdrop-filter: blur(10px);
        box-shadow: 1px 2px 10px 0.1px rgba(44, 44, 44, 0.37);
-       height:400px;
+       height: 250px;
        position: relative;
     }
     .meal-img img{
@@ -438,7 +440,7 @@ header{
         background-color: rgba(255, 255, 255, 0.164);
         width: 100%;
         backdrop-filter: blur(20px);
-         -webkit-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(15px);
         top: 8%;
         padding: 2px;
         left: 0%;
@@ -454,7 +456,7 @@ header{
         border: none;
         outline: none;
      color: red;
-     font-size: large;
+     font-size: 1.5rem;
        
     }
     .main-details::-webkit-scrollbar{
