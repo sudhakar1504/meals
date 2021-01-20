@@ -369,7 +369,7 @@ header{
 }
 @media only screen and (max-width:335px){
     .meal-item{
-        width: 120px;
+        width: 140px;
         overflow: hidden;
        margin: 5px;
        border-radius: 10px;
@@ -396,7 +396,7 @@ header{
         text-transform: capitalize;
         font-weight: 600;
         color: white;
-        font-size: 1rem;
+        font-size: 0.8rem;
         background-color: rgba(85, 84, 84, 0.856);
         margin-top: 10px;
        
