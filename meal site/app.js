@@ -84,15 +84,16 @@ function mealrecipe(meal){
        
         <div class="meal-headings">${meal.strMeal}</div>
         <div class="meal-category">${meal.strCategory}</div>
+         <div class="foot d-flex flex-column align-items-center">
+        <img src="${meal.strMealThumb}" alt="">
+        <a href="${meal.strYoutube}" class="meal-link mt-3"  target="_blank"> <i class="fas fa-video    "></i> WATCH VIDEO </a>
+        </div>
         <h2 class="meal-instructions-head text-center">Instructions :
         </h2>
         <p class="meal-instructions text-justify">
         ${meal.strInstructions}
         </p>
-        <div class="foot d-flex flex-column align-items-center">
-        <img src="${meal.strMealThumb}" alt="">
-        <a href="${meal.strYoutube}" class="meal-link mt-3"  target="_blank"> <i class="fas fa-video    "></i> WATCH VIDEO </a>
-        </div>
+       
     `;
     detail.innerHTML=html;
     detail.parentElement.classList.add("show");
